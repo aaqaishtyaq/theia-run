@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "scripts": {
+        "prepare": "lerna run prepare",
+        "rebuild": "theia rebuild:browser"
+    },
+    "devDependencies": {
+        "lerna": "^2.11.0"
+    },
+    "workspaces": [
+        "theia-branding",
+        "theia-layout",
+        "theia-filespace",
+        "theia-run",
+        "terminal",
+        "browser-app"
+    ]
+}

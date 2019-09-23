@@ -1,0 +1,57 @@
+{
+    "private": true,
+    "name": "browser-app",
+    "version": "0.0.0",
+    "dependencies": {
+        "@theia/callhierarchy": "^0.10.0",
+        "@theia/console": "0.10.0",
+        "@theia/core": "0.10.0",
+        "@theia/editor": "0.10.0",
+        "@theia/editor-preview": "0.10.0",
+        "@theia/editorconfig": "0.10.0",
+        "@theia/file-search": "0.10.0",
+        "@theia/filesystem": "0.10.0",
+        "@theia/git": "0.10.0",
+        "@theia/json": "0.10.0",
+        "@theia/keymaps": "0.10.0",
+        "@theia/messages": "0.10.0",
+        "@theia/mini-browser": "0.10.0",
+        "@theia/monaco": "0.10.0",
+        "@theia/navigator": "0.10.0",
+        "@theia/outline-view": "0.10.0",
+        "@theia/output": "0.10.0",
+        "@theia/preferences": "0.10.0",
+        "@theia/preview": "0.10.0",
+        "@theia/process": "0.10.0",
+        "@theia/search-in-workspace": "0.10.0",
+        "@theia/task": "0.10.0",
+        "@theia/terminal": "0.10.0",
+        "@theia/tslint": "0.10.0",
+        "@theia/typehierarchy": "0.10.0",
+        "@theia/typescript": "0.10.0",
+        "@theia/userstorage": "0.10.0",
+        "@theia/variable-resolver": "0.10.0",
+        "@theia/workspace": "0.10.0",
+        "@theia/textmate-grammars": "0.10.0",
+        "theia-run": "0.10.0"
+    },
+    "devDependencies": {
+        "@theia/cli": "latest"
+    },
+    "scripts": {
+        "prepare": "theia build --mode development",
+        "start": "theia start",
+        "watch": "theia build --watch --mode development"
+    },
+    "theia": {
+        "target": "browser",
+        "frontend": {
+            "config": {
+                "applicationName": "Theia Browser Example",
+                "preferences": {
+                    "files.enableTrash": false
+                }
+            }
+        }
+    }
+}

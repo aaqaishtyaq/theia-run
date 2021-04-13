@@ -4,7 +4,7 @@
     "version": "0.0.0",
     "dependencies": {
         "@theia/callhierarchy": "^0.10.0",
-        "@theia/console": "0.10.0",
+        "@theia/console": "1.8.1",
         "@theia/core": "0.10.0",
         "@theia/editor": "0.10.0",
         "@theia/editor-preview": "0.10.0",

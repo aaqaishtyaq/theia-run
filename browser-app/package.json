@@ -15,7 +15,7 @@
         "@theia/json": "0.10.0",
         "@theia/keymaps": "0.10.0",
         "@theia/messages": "0.10.0",
-        "@theia/mini-browser": "0.10.0",
+        "@theia/mini-browser": "0.16.0",
         "@theia/monaco": "0.10.0",
         "@theia/navigator": "0.10.0",
         "@theia/outline-view": "0.10.0",

@@ -21,7 +21,7 @@
         "@theia/outline-view": "0.10.0",
         "@theia/output": "0.10.0",
         "@theia/preferences": "0.10.0",
-        "@theia/preview": "0.10.0",
+        "@theia/preview": "1.2.0",
         "@theia/process": "0.10.0",
         "@theia/search-in-workspace": "0.10.0",
         "@theia/task": "0.10.0",
